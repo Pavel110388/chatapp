@@ -1,3 +1,35 @@
 .pozadi {
   background: linear-gradient(135deg, #a64ac9 0%, #1a1b3f 100%);
 }
+
+/*pavel*/
+#chat {
+  width: 73%;
+  height: 855px;
+  position: relative;
+  right: -25%;
+  background: #ffffff00;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pfp {
+  padding-left: 108px;
+}
+
+.nadpis {
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+.nastaveni {
+  margin-left: 250px;
+  margin-top: -10px;
+  height: 108px;
+  width: 108px;
+}
